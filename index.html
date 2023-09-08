@@ -16,7 +16,7 @@
     <div class="container-fluid">
 
       <!-- form input dati -->
-      <form action="">
+      <div>
 
         <!-- riga titolo -->
         <div class="row row-cols-1 text-center pt-5 debug">
@@ -62,14 +62,14 @@
             <button id="generate" class="btn btn-primary">Genera</button>
           </div>
           <div class="col p-3 debug">
-            <button type="reset" class="btn btn-primary ">Reset</button>
+            <button id="reset" class="btn btn-primary ">Reset</button>
           </div>
         </div>
-      </form>
+      </div>
 
 
       <!-- blocco Biglietto  -->
-      <div id="ticket" class="text-center mt-5">
+      <div id="ticket" class="text-center mt-5 d-none">
         <h1>Il tuo Biglietto</h1>
 
         <!-- Biglietto -->
@@ -77,10 +77,10 @@
 
           <!-- dettagli passeggero (left) -->
           <div class="col-4 debug">
-            <h3>Dettagli Passeggero</h3>
+            <h4>Dettagli Passeggero</h4>
             <div id="passenger-data" class="d-flex flex-column align-items-start p-3">
               <h3 class="text-uppercase ">Nome Passeggero</h3>
-              <h5 id="name-out" class="fw-bold ">Jhon Snow</h5>
+              <h5 id="name-out" class="fw-bold "></h5>
             </div>
           </div>
 
@@ -88,12 +88,12 @@
           <div class="col d-flex align-items-end debug">
 
 
-            <div class="row row-cols-4 align-items-end">
+            <div id="details-row" class="row row-cols-4 align-items-end">
 
               <!-- offerta  -->
               <div class="col d-flex flex-column align-items-start justify-content-between p-4 debug">
                 <div class="fw-bold ">Offerta</div>
-                <div id="discount-out">Tipo di offerta</div>
+                <div id="discount-out"></div>
               </div>
 
               <!-- Carrozza  -->
@@ -111,8 +111,8 @@
 
              <!-- Price  -->
              <div class="col d-flex flex-column align-items-start justify-content-between p-4 debug">
-              <div class="fw-bold ">N. Prenotazione</div>
-              <div id="price-out"><span>&euro;</span>15</div>
+              <div class="fw-bold ">Prezzo</div>
+              <span>&euro;</span><span id="price-out"></span>
             </div>
 
             </div>

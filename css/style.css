@@ -1,9 +1,7 @@
-.debug{
+/* .debug{
   background-color: rgba(0, 128, 0, 0.311);
   border: 1px solid black;
-  /* min-height: 200px; */
-  /* width: 100%; */
-}
+} */
 
 .container-lf{
   max-width: 1000px;
@@ -13,6 +11,12 @@
 
 #ticket .col {
   min-height: 150px;
+}
+
+#details-row .col {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+
 }
 
 #passenger-data{
