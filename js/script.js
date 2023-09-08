@@ -82,9 +82,9 @@ function clearAll() {
   age = document.getElementById("age");
 
   //reset degli input 
-  pName.reset();
-  km.reset();
-  age.reset();
+  pName.value = '';
+  km.value = '';
+  age.value = '';
 
 
   //nascondo biglietto
