@@ -16,25 +16,32 @@
     <div class="container-fluid">
       <form action="">
 
-        <div class="row row-cols-3 my-5 debug">
-          <div class="col d-flex flex-column justify-content-center align-items-center debug">
+        <!-- riga titolo -->
+        <div class="row row-cols-1 text-center pt-5 debug">
+          <h1>Dati biglietto</h1>
+        </div>
+
+
+        <!-- Riga di input  -->
+        <div class="row row-cols-3 mt-5 debug">
+          <div class="col d-flex flex-column justify-content-center align-items-center p-3 debug">
             
             <label for="name">Scrivi il tuo nome</label>
             <input id="name" type="text" class="form-control ">
            
           </div>
           
-          <div class="col d-flex flex-column justify-content-center align-items-center debug">
+          <div class="col d-flex flex-column justify-content-center align-items-center p-3 debug">
             
             <label for="km">Km da percorrere</label>
             <input id="km" type="text" class="form-control ">
            
           </div>
           
-          <div class="col d-flex flex-column justify-content-center align-items-center debug">
+          <div class="col d-flex flex-column justify-content-center align-items-center p-3 debug">
             
             <label for="age">Fascia di età</label>
-            <select name="age" id="age">
+            <select name="age" id="age" class="form-select">
               <option value="#">Seleziona una fascia di età</option>
               <option value="under-age">Minorenne</option>
               <option value="adult">Maggiorenne</option>
@@ -46,6 +53,16 @@
           
         </div>
 
+
+        <!-- riga bottoni -->
+        <div class="row ro-cols-2 debug">
+          <div class="col d-flex justify-content-end  p-3   debug">
+            <button class="btn btn-primary">Genera</button>
+          </div>
+          <div class="col p-3 debug">
+            <button class="btn btn-primary ">Reset</button>
+          </div>
+        </div>
       </form>
     </div>
   
