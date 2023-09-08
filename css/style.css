@@ -10,3 +10,14 @@
   width: 90%;
   margin: 0 auto;
 }
+
+#ticket .col {
+  min-height: 150px;
+}
+
+#passenger-data{
+  height: 150px;
+  width: 100%;
+  background-color: grey;
+
+}

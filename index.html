@@ -14,6 +14,8 @@
   <div class="container-lf">
 
     <div class="container-fluid">
+
+      <!-- form input dati -->
       <form action="">
 
         <!-- riga titolo -->
@@ -64,6 +66,61 @@
           </div>
         </div>
       </form>
+
+
+      <!-- blocco Biglietto  -->
+      <div id="ticket" class="text-center mt-5">
+        <h1>Il tuo Biglietto</h1>
+
+        <!-- Biglietto -->
+        <div class="row mt-2 p-3 debug">
+
+          <!-- dettagli passeggero (left) -->
+          <div class="col-4 debug">
+            <h3>Dettagli Passeggero</h3>
+            <div id="passenger-data" class="d-flex flex-column align-items-start p-3">
+              <h3 class="text-uppercase ">Nome Passeggero</h3>
+              <h5 id="name-out" class="fw-bold ">Jhon Snow</h5>
+            </div>
+          </div>
+
+          <!-- altri dettagli  -->
+          <div class="col d-flex align-items-end debug">
+
+
+            <div class="row row-cols-4 align-items-end">
+
+              <!-- offerta  -->
+              <div class="col d-flex flex-column align-items-start justify-content-between p-4 debug">
+                <div class="fw-bold ">Offerta</div>
+                <div id="discount-out">Tipo di offerta</div>
+              </div>
+
+              <!-- Carrozza  -->
+              <div class="col d-flex flex-column align-items-start justify-content-between p-4 debug">
+                <div class="fw-bold ">Carrozza</div>
+                <div id="couch-out">5</div>
+              </div>
+
+              <!-- N. Prenotazione  -->
+              <div class="col d-flex flex-column align-items-start justify-content-between p-4 debug">
+                <div class="fw-bold ">N. Prenotazione</div>
+                <div id="n-ticket-out">9430</div>
+              </div>
+
+
+             <!-- Price  -->
+             <div class="col d-flex flex-column align-items-start justify-content-between p-4 debug">
+              <div class="fw-bold ">N. Prenotazione</div>
+              <div id="price-out"><span>&euro;</span>15</div>
+            </div>
+
+            </div>
+
+          </div>
+        </div>
+        </div>
+
     </div>
   
   </div>
