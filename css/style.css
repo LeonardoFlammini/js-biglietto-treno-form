@@ -1,0 +1,12 @@
+.debug{
+  background-color: rgba(0, 128, 0, 0.311);
+  border: 1px solid black;
+  min-height: 200px;
+  /* width: 100%; */
+}
+
+.container-lf{
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
